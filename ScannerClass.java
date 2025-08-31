@@ -1,0 +1,18 @@
+package java_practice;
+import java.util.Scanner;
+
+public class ScannerClass {
+
+	public static void main(String[] args) {
+		
+	Scanner s1= new Scanner (System.in);
+	System.out.println("Please enter your name");
+	s1.next();
+	s1.close();
+	
+		
+		
+
+	}
+
+}
